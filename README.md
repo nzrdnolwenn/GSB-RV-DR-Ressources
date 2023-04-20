@@ -61,4 +61,10 @@ Ressources
     private Visiteur leVisiteur ;
     private Praticien lePraticien ;
     
+    VUES :
+    VueConnexion
+    VueConnexionEchoue
+    VueConnexionVide
+    VueRapport
+    VueRapportIncomplet
     
