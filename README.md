@@ -1,9 +1,9 @@
 # GSB-RV-DR-Ressources
 Ressources
     
-    Tables: 
+    TABLES: 
     
-    Entités : 
+    ENTITÉS : 
     Praticien
     private int numero;
     private String nom;
