@@ -1,5 +1,5 @@
 # GSB-RV-DR-Ressources
-Ressources
+Ressources:
     
     TABLES: 	
     
