@@ -1,8 +1,10 @@
 # GSB-RV-DR-Ressources
 Ressources
-
-Entités:
---Praticien
+    
+    Tables: 
+    
+    Entités : 
+    Praticien
     private int numero;
     private String nom;
     private String ville;
@@ -12,13 +14,13 @@ Entités:
     private String adresse;
     private String codePostal;
     private String prenom;
-
---Visiteur
+    
+    Visiteur
     private String matricule;
     private String nom;
     private String prenom;
-
---RapportVisite 
+    
+    RapportVisite
     private int numero;
     private LocalDate dateVisite;
     private LocalDate dateRedaction;
@@ -28,5 +30,3 @@ Entités:
     private boolean lu;
     private Visiteur leVisiteur;
     private Praticien lePraticien;
-    
-    Tables: 
