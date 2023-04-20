@@ -38,15 +38,15 @@ Ressources
     ENTITÉS : 
     
     Praticien
-    private int numero;
+    private String numero;
     private String nom;
+    private String prenom;
     private String ville;
-    private double coefNotoriete;
+    private Double coefNotoriete;
     private LocalDate dateDerniereVisite;
     private int dernierCoefConfiance;
     private String adresse;
     private String codePostal;
-    private String prenom;
     
     Visiteur
     private String matricule;
@@ -54,14 +54,11 @@ Ressources
     private String prenom;
     
     RapportVisite
-    private int numero;
-    private LocalDate dateVisite;
-    private LocalDate dateRedaction;
-    private String bilan;
-    private String motif;
-    private int coefConfiance;
-    private boolean lu;
-    private Visiteur leVisiteur;
-    private Praticien lePraticien;
+    private int numero,coefConfiance ;
+    private LocalDate dateVisite, dateRedaction ;
+    private String bilan, motif ;
+    private boolean lu ;
+    private Visiteur leVisiteur ;
+    private Praticien lePraticien ;
     
     
