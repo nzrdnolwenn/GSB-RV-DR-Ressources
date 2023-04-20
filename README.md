@@ -1,9 +1,42 @@
 # GSB-RV-DR-Ressources
 Ressources
     
-    TABLES: 
+    TABLES: 	
+    
+    +-----------------+
+	| Tables_in_gsbrv |
+	+-----------------+
+	| activitecompl   |
+	| composant       |
+	| connaitre       |
+	| constituer      |
+	| dosage          |
+	| famille         |
+	| formuler        |
+	| interagir       |
+	| inviter         |
+	| laboratoire     |
+	| medicament      |
+	| motif           |
+	| offrir          |
+	| posseder        |
+	| praticien       |
+	| prescrire       |
+	| presentation    |
+	| rapportvisite   |
+	| realiser        |
+	| region          |
+	| secteur         |
+	| specialite      |
+	| travailler      |
+	| typeindividu    |
+	| typepraticien   |
+	| visiteur        |
+	+-----------------+
+    
     
     ENTITÉS : 
+    
     Praticien
     private int numero;
     private String nom;
@@ -30,3 +63,5 @@ Ressources
     private boolean lu;
     private Visiteur leVisiteur;
     private Praticien lePraticien;
+    
+    
