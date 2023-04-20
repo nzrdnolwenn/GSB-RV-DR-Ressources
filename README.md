@@ -6,32 +6,32 @@ Ressources
     +-----------------+
 	| Tables_in_gsbrv |
 	+-----------------+
-	| activitecompl   |
-	| composant       |
-	| connaitre       |
-	| constituer      |
-	| dosage          |
-	| famille         |
-	| formuler        |
-	| interagir       |
-	| inviter         |
-	| laboratoire     |
-	| medicament      |
-	| motif           |
-	| offrir          |
-	| posseder        |
-	| praticien       |
-	| prescrire       |
-	| presentation    |
-	| rapportvisite   |
-	| realiser        |
-	| region          |
-	| secteur         |
-	| specialite      |
-	| travailler      |
-	| typeindividu    |
-	| typepraticien   |
-	| visiteur        |
+	| Activitecompl   |
+	| Composant       |
+	| Connaitre       |
+	| Constituer      |
+	| Dosage          |
+	| Famille         |
+	| Formuler        |
+	| Interagir       |
+	| Inviter         |
+	| Laboratoire     |
+	| Medicament      |
+	| Motif           |
+	| Offrir          |
+	| Posseder        |
+	| Praticien       |
+	| Prescrire       |
+	| Presentation    |
+	| RapportVisite   |
+	| Realiser        |
+	| Region          |
+	| Secteur         |
+	| Specialite      |
+	| Travailler      |
+	| TypeIndividu    |
+	| TypePraticien   |
+	| Visiteur        |
 	+-----------------+
     
     
@@ -62,6 +62,7 @@ Ressources
     private Praticien lePraticien ;
     
     VUES :
+    
     VueConnexion
     VueConnexionEchoue
     VueConnexionVide
